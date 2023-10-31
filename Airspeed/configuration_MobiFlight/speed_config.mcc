@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="842c77f8-7f13-4b8a-89e2-fb3c812c9142">
+      <active>true</active>
+      <description>airspeed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AIRSPEED TRUE,Knots)" UUID="987cbe1e-8b29-4c75-b23f-8400e2d0ea9a" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="40" y="30" />
+            <value x="50" y="50" />
+            <value x="60" y="70" />
+            <value x="70" y="90" />
+            <value x="80" y="110" />
+            <value x="90" y="140" />
+            <value x="110" y="180" />
+            <value x="120" y="210" />
+            <value x="130" y="225" />
+            <value x="140" y="240" />
+            <value x="150" y="255" />
+            <value x="160" y="270" />
+            <value x="170" y="285" />
+            <value x="180" y="300" />
+            <value x="190" y="315" />
+            <value x="200" y="330" />
+          </interpolation>
+        </modifiers>
+        <display type="Stepper" serial="Arduino_1/ SN-a43-395" trigger="normal" stepperAddress="Stepper" stepperInputRev="360" stepperOutputRev="2040" stepperTestValue="500" stepperCompassMode="False" stepperAcceleration="800" stepperSpeed="467" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs />
+</MobiflightConnector>

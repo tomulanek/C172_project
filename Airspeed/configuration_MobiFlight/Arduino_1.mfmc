@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleName>Arduino_1</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Stepper Name="Stepper" Pin1="48" Pin2="49" Pin3="50" Pin4="51" BtnPin="0" Mode="0" Backlash="3" Deactivate="false" Profile="0" />
+</Config>
